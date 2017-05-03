@@ -1,5 +1,5 @@
 pkgname=cockatrice-git
-pkgver=20161030
+pkgver=2.3.16
 pkgrel=1
 pkgdesc='Open-source multiplatform supported program for playing tabletop card games over a network.'
 arch=('i686' 'x86_64')
@@ -8,7 +8,7 @@ license=('GPL2')
 depends=('protobuf' 'qt5-svg' 'qt5-tools' 'qt5-multimedia')
 makedepends=('cmake' 'git')
 _pkgver="${pkgver:0:4}-${pkgver:4:2}-${pkgver:6:2}"
-source=("git+https://github.com/Cockatrice/Cockatrice#tag=$_pkgver-Release")
+source=("git+https://github.com/Cockatrice/Cockatrice#tag=2017-04-15-Release-2.3.16")
 sha256sums=('SKIP')
 
 build() {
