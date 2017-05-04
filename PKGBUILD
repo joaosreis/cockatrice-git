@@ -1,5 +1,5 @@
 pkgname=cockatrice-git
-pkgver=2.3.16
+pkgver=20170415
 pkgrel=1
 pkgdesc='Open-source multiplatform supported program for playing tabletop card games over a network.'
 arch=('i686' 'x86_64')
